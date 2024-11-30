@@ -8,6 +8,7 @@ import Contact from './pages/Contact.tsx';
 import Indev from './components/Indev.tsx';
 import Projects from './pages/Projects(indev).tsx';
 
+document.title = "David Balishyan 😎"
 
 const App: React.FC = () => {
   return (

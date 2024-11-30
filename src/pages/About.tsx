@@ -46,14 +46,14 @@ const About: React.FC = () => {
               >
                 Let's Connect
               </Link>
-              <a
-                href="/resume.pdf"
+              <Link
+                to="/resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"   
                 className="ml-4 px-6 py-3 bg-transparent border border-blue-600 text-blue-600 font-semibold rounded-md hover:bg-blue-600 hover:text-white transition"
               >
                 View My Resume
-              </a>
+              </Link>
             </div>
           </div>
         </div>

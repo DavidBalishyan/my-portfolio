@@ -9,7 +9,6 @@ const Navbar: React.FC = () => {
     <nav className="bg-blue-600 text-white shadow navbar">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          {/* Logo */}
           <div className="flex-shrink-0">
             <Link to="/" className="text-2xl font-bold">
               MyLogo
@@ -44,8 +43,6 @@ const Navbar: React.FC = () => {
               Projects
             </Link>
           </div>
-
-          {/* Hamburger Menu (Mobile) */}
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
@@ -100,6 +97,13 @@ const Navbar: React.FC = () => {
               className="block hover:bg-blue-500 px-3 py-2 rounded-md text-base font-medium"
             >
               Contact
+            </Link>
+            <Link
+            //   to="/projects" 
+                to="/indev"
+              className="block hover:bg-blue-500 px-3 py-2 rounded-md text-base font-medium"
+            >
+              Projects
             </Link>
           </div>
         </div>
