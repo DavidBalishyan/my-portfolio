@@ -43,8 +43,8 @@ const Home: React.FC = () => {
           {/* Right Content (Illustration/Image) */}
           <div className="mt-10 md:mt-0">
             <img
-              src="https://via.placeholder.com/500x400.png?text=Your+Photo+or+Illustration"
-              alt="Your Photo or Work Illustration"
+              src="https://via.placeholder.com/500x400.png?text=My+Photo+or+Illustration"
+              alt="My Photo or Work Illustration"
               className="rounded-lg shadow-lg"
             />
           </div>
