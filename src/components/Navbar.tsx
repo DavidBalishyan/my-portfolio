@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
+
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-blue-600 text-white shadow">
+    <nav className="bg-blue-600 text-white shadow navbar">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
@@ -34,6 +35,13 @@ const Navbar: React.FC = () => {
               className="hover:bg-blue-500 px-3 py-2 rounded-md text-sm font-medium"
             >
               Contact
+            </Link>
+            <Link
+            //   to="/projects" 
+                to="/indev"
+              className="hover:bg-blue-500 px-3 py-2 rounded-md text-sm font-medium"
+            >
+              Projects
             </Link>
           </div>
 
