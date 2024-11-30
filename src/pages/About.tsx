@@ -33,7 +33,7 @@ const About: React.FC = () => {
               Hi, I'm David
             </h3>
             <p className="mt-4 text-gray-600 leading-relaxed">
-              I'm a <span className="font-semibold">full-stack web dev</span> with a passion for designing and building modern, user-friendly applications. My journey began when I [share a brief personal story or experience]. Since then, I've honed my skills in technologies like 
+              I'm a <span className="font-semibold">full-stack web dev</span> with a passion for designing and building modern, user-friendly applications. My journey began when I started learning programming. Since then, I've honed my skills in technologies like 
               <span className="text-blue-600 font-medium"> ReactJS, TailwindCSS</span>, and <span className="text-blue-600 font-medium">so on...</span>.
             </p>
             <p className="mt-4 text-gray-600 leading-relaxed">
