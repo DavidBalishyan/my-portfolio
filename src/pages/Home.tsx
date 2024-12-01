@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import reactlogo from "../img/reactlogo.png";
 import tailwindlogo from "../img/tailwindlogo.png";
 import tslogo from "../img/tslogo.png";
@@ -7,7 +8,9 @@ import taurilogo from "../img/taurilogo.png";
 import rustlogo from "../img/rustlogo.png";
 import cpplogo from "../img/cpplogo.png";
 import electronlogo from "../img/electronlogo.png"
-import { Link } from "react-router-dom";
+import bulmalogo from "../img/bulmalogo.png"
+import bootstraplogo from "../img/bootstraplogo.jpg"
+
 
 const Home: React.FC = () => {
   return (
@@ -93,6 +96,14 @@ const Home: React.FC = () => {
               <img src={electronlogo} alt="Node.js" className="mx-auto" />
               <p className="mt-4 text-gray-800 font-semibold">Electron</p>
             </div>
+            <div className="text-center bg-gray-100 p-6 rounded-lg shadow">
+              <img src={bootstraplogo} alt="Node.js" className="mx-auto" />
+              <p className="mt-4 text-gray-800 font-semibold">Bootstrap</p>
+            </div>
+            <div className="text-center bg-gray-100 p-6 rounded-lg shadow">
+              <img src={bulmalogo} alt="Node.js" className="mx-auto" />
+              <p className="mt-4 text-gray-800 font-semibold">Bulma</p>
+            </div>
           </div>
         </div>
       </section>
@@ -105,7 +116,7 @@ const Home: React.FC = () => {
           </p>
           <div className="mt-4 md:mt-0 flex space-x-4">
             <a
-              href="https://github.com/@DavidBalishyan"
+              href="https://github.com/DavidBalishyan"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white"

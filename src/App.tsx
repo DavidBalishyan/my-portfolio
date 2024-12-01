@@ -7,6 +7,7 @@ import Navbar from './components/Navbar.tsx';
 import Contact from './pages/Contact.tsx';
 import Indev from './components/Indev.tsx';
 import Projects from './pages/Projects(indev).tsx';
+import Game from './pages/Game.tsx';
 
 document.title = "David Balishyan 😎"
 
@@ -20,6 +21,7 @@ const App: React.FC = () => {
         <Route path="/contact" element={<Contact/>} />
         <Route path="/indev" element={<Indev/>} />
         <Route path="/projects" element={<Projects/>} />
+        <Route path="/game" element={<Game/>} />
         <Route path="*" element={ <Notfound/> }/>
       </Routes>
     </Router>

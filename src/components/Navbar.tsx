@@ -42,6 +42,13 @@ const Navbar: React.FC = () => {
             >
               Projects
             </Link>
+            <Link
+              to="/game" 
+                // to="/indev"
+              className="hover:bg-blue-500 px-3 py-2 rounded-md text-sm font-medium"
+            >
+              Game
+            </Link>
           </div>
           <div className="md:hidden">
             <button
@@ -104,6 +111,12 @@ const Navbar: React.FC = () => {
               className="block hover:bg-blue-500 px-3 py-2 rounded-md text-base font-medium"
             >
               Projects
+            </Link>
+            <Link 
+                to="/game"
+              className="block hover:bg-blue-500 px-3 py-2 rounded-md text-base font-medium"
+            >
+              Game
             </Link>
           </div>
         </div>
