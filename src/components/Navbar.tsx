@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -11,7 +10,7 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
             <Link to="/" className="text-2xl font-bold">
-              MyLogo
+              <span className="text-yellow-300">David</span> Balishyan
             </Link>
           </div>
 
@@ -36,15 +35,13 @@ const Navbar: React.FC = () => {
               Contact
             </Link>
             <Link
-            //   to="/projects" 
-                to="/indev"
+              to="/projects" 
               className="hover:bg-blue-500 px-3 py-2 rounded-md text-sm font-medium"
             >
               Projects
             </Link>
             <Link
               to="/game" 
-                // to="/indev"
               className="hover:bg-blue-500 px-3 py-2 rounded-md text-sm font-medium"
             >
               Game
@@ -106,8 +103,7 @@ const Navbar: React.FC = () => {
               Contact
             </Link>
             <Link
-            //   to="/projects" 
-                to="/indev"
+              to="/projects" 
               className="block hover:bg-blue-500 px-3 py-2 rounded-md text-base font-medium"
             >
               Projects

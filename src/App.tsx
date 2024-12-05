@@ -6,7 +6,7 @@ import Notfound from "./components/Notfound.tsx"
 import Navbar from './components/Navbar.tsx';
 import Contact from './pages/Contact.tsx';
 import Indev from './components/Indev.tsx';
-import Projects from './pages/Projects(indev).tsx';
+import Projects from './pages/Projects.tsx';
 import Game from './pages/Game.tsx';
 
 document.title = "David Balishyan 😎"

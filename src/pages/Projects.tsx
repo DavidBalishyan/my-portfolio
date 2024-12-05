@@ -1,21 +1,15 @@
 import React from "react";
 
 const projects = [
-  {
-    title: "Portfolio Website",
-    description: "A personal portfolio showcasing my skills, projects, and achievements.",
-    image: "https://via.placeholder.com/400x300.png?text=Portfolio+Project",
-    liveLink: "#",
-    repoLink: "#",
-  },
+  
   {
     title: "Quiz App",
     description: "A dynamic quiz application built with React.",
     image: "https://via.placeholder.com/400x300.png?text=Quiz+App",
-    liveLink: "#",
-    repoLink: "#",
+    liveLink: "https://quizz-umber-xi.vercel.app",
+    repoLink: "https://github.com/DavidBalishyan/quizz-react.git",
   },
-  {
+  { 
     title: "Counter app",
     description: "A simple counter app buit in React.",
     image: "https://via.placeholder.com/400x300.png?text=E-Commerce+Website",

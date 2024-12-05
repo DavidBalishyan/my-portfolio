@@ -107,7 +107,7 @@ const Contact: React.FC = () => {
                     />
                   </svg>
                 </span>
-                <span className="ml-4 text-gray-800">+374 (77) 12-65-56</span>
+                <span className="ml-4 text-gray-800">+374 (77) 12-65-56 (only in Armenia)</span>
               </li>
               <li className="flex items-center">
                 <span className="bg-blue-600 text-white p-3 rounded-full">
@@ -127,6 +127,25 @@ const Contact: React.FC = () => {
                   </svg>
                 </span>
                 <span className="ml-4 text-gray-800">davidbalishyan12@gmail.com</span>
+              </li>
+              <li className="flex items-center">
+                <span className="bg-blue-600 text-white p-3 rounded-full">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M16.72 11.06a8 8 0 10-4.64 4.64m1.42-7.1a3 3 0 11-4.24 4.24"
+                    />
+                  </svg>
+                </span>
+                <span className="ml-4 text-gray-800">davidbalishyan.work@gmail.com</span>              
               </li>
             </ul>
           </div>
