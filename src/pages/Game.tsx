@@ -2,7 +2,7 @@ import React from "react";
 
 const Game: React.FC = () => {
   return (
-    <h1 className="text-big">Game</h1>
+    <h1 className="text-center font-extrabold">Game</h1>
   )
 }
 

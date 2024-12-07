@@ -7,119 +7,87 @@ import nodelogo from "../img/nodelogo.jpg";
 import taurilogo from "../img/taurilogo.png";
 import rustlogo from "../img/rustlogo.png";
 import cpplogo from "../img/cpplogo.png";
-import electronlogo from "../img/electronlogo.png"
-import bulmalogo from "../img/bulmalogo.png"
-import bootstraplogo from "../img/bootstraplogo.jpg"
-
+import electronlogo from "../img/electronlogo.png";
+import bulmalogo from "../img/bulmalogo.png";
+import bootstraplogo from "../img/bootstraplogo.jpg";
 
 const Home: React.FC = () => {
   return (
-    <div className="bg-gray-100 min-h-screen">
+    <div className="min-h-screen">
       {/* Hero Section */}
-      <header className="relative bg-gradient-to-r from-blue-600 to-indigo-600 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between py-20">
-          {/* Left Content */}
-          <div className="text-center md:text-left">
-            <h1 className="text-4xl md:text-6xl font-extrabold">
-              Hi, I'm <span className="text-yellow-300">David</span>
-            </h1>
-            <p className="mt-4 text-lg md:text-xl">
-              A passionate <span className="font-bold">full-stack web dev</span>{" "}
-              specializing in building modern, user-friendly web applications.
-            </p>
-            <div className="mt-6">
-              <Link
-                to="/indev"
-                className="px-6 py-3 bg-yellow-300 text-gray-800 font-semibold rounded-md shadow-md hover:bg-yellow-400 transition"
-              >
-                View My Work
-              </Link>
-              <Link
-                to="/contact"
-                className="ml-4 px-6 py-3 bg-transparent border border-white text-white font-semibold rounded-md hover:bg-white hover:text-blue-600 transition"
-              >
-                Contact Me
-              </Link>
-            </div>
-          </div>
-
-          {/* Right Content (Illustration/Image) */}
-          <div className="mt-10 md:mt-0">
+      <header className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white">
+        <div className="hero py-20">
+          <div className="hero-content flex-col lg:flex-row-reverse">
+            {/* Right Content (Illustration/Image) */}
             <img
               src="https://via.placeholder.com/500x400.png?text=My+Photo+or+Illustration"
               alt="My Photo or Work Illustration"
-              className="rounded-lg shadow-lg"
+              className="max-w-sm rounded-lg shadow-2xl"
             />
+
+            {/* Left Content */}
+            <div>
+              <h1 className="text-5xl font-bold">
+                Hi, I'm <span className="text-yellow-300">David</span>
+              </h1>
+              <p className="py-6">
+                A passionate <span className="font-bold">full-stack web dev</span>{" "}
+                specializing in building modern, user-friendly web applications.
+              </p>
+              <div>
+                <Link to="/indev" className="btn btn-warning mr-4">
+                  View My Work
+                </Link>
+                <Link to="/contact" className="btn btn-outline btn-white">
+                  Contact Me
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </header>
 
       {/* Skills Section */}
-      <section id="skills" className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center text-gray-800">
-            Skills & Technologies
-          </h2>
-          <p className="text-center text-gray-600 mt-2">
-            A quick overview of my technical toolbox.
-          </p>
-          <div className="mt-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-            <div className="text-center bg-gray-100 p-6 rounded-lg shadow">
-              <img src={reactlogo} alt="React" className="mx-auto" />
-              <p className="mt-4 text-gray-800 font-semibold">ReactJS</p>
-            </div>
-            <div className="text-center bg-gray-100 p-6 rounded-lg shadow">
-              <img src={tailwindlogo} alt="TailwindCSS" className="mx-auto" />
-              <p className="mt-4 text-gray-800 font-semibold">TailwindCSS</p>
-            </div>
-            <div className="text-center bg-gray-100 p-6 rounded-lg shadow">
-              <img src={tslogo} alt="TypeScript" className="mx-auto" />
-              <p className="mt-4 text-gray-800 font-semibold">TypeScript</p>
-            </div>
-            <div className="text-center bg-gray-100 p-6 rounded-lg shadow">
-              <img src={nodelogo} alt="Node.js" className="mx-auto" />
-              <p className="mt-4 text-gray-800 font-semibold">Node.js</p>
-            </div>
-            <div className="text-center bg-gray-100 p-6 rounded-lg shadow">
-              <img src={taurilogo} alt="Node.js" className="mx-auto" />
-              <p className="mt-4 text-gray-800 font-semibold">Tauri</p>
-            </div>
-            <div className="text-center bg-gray-100 p-6 rounded-lg shadow">
-              <img src={rustlogo} alt="Node.js" className="mx-auto" />
-              <p className="mt-4 text-gray-800 font-semibold">Rust</p>
-            </div>
-            <div className="text-center bg-gray-100 p-6 rounded-lg shadow">
-              <img src={cpplogo} alt="Node.js" className="mx-auto" />
-              <p className="mt-4 text-gray-800 font-semibold">C++</p>
-            </div>
-            <div className="text-center bg-gray-100 p-6 rounded-lg shadow">
-              <img src={electronlogo} alt="Node.js" className="mx-auto" />
-              <p className="mt-4 text-gray-800 font-semibold">Electron</p>
-            </div>
-            <div className="text-center bg-gray-100 p-6 rounded-lg shadow">
-              <img src={bootstraplogo} alt="Node.js" className="mx-auto" />
-              <p className="mt-4 text-gray-800 font-semibold">Bootstrap</p>
-            </div>
-            <div className="text-center bg-gray-100 p-6 rounded-lg shadow">
-              <img src={bulmalogo} alt="Node.js" className="mx-auto" />
-              <p className="mt-4 text-gray-800 font-semibold">Bulma</p>
-            </div>
+      <section id="skills" className="py-16 bg-base-200">
+        <div className="container mx-auto text-center">
+          <h2 className="text-3xl font-bold">Skills & Technologies</h2>
+          <p className="text-gray-500 mt-2">A quick overview of my technical toolbox.</p>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-10">
+            {[
+              { img: reactlogo, name: "ReactJS" },
+              { img: tailwindlogo, name: "TailwindCSS" },
+              { img: tslogo, name: "TypeScript" },
+              { img: nodelogo, name: "Node.js" },
+              { img: taurilogo, name: "Tauri" },
+              { img: rustlogo, name: "Rust" },
+              { img: cpplogo, name: "C++" },
+              { img: electronlogo, name: "Electron" },
+              { img: bootstraplogo, name: "Bootstrap" },
+              { img: bulmalogo, name: "Bulma" },
+            ].map((skill, idx) => (
+              <div key={idx} className="card shadow-md bg-white">
+                <div className="card-body items-center">
+                  <img src={skill.img} alt={skill.name} className="w-16 mx-auto " />
+                  <p className="mt-4 text-gray-800 font-semibold">{skill.name}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
       {/* Footer Section */}
-      <footer className="bg-gray-800 text-white py-6">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center">
+      <footer className="bg-base-300 py-6">
+        <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
           <p className="text-center md:text-left">
-            © {new Date().getFullYear()} David Balishyan. All rights reserved.  
+            © {new Date().getFullYear()} David Balishyan. All rights reserved.
           </p>
-          <div className="mt-4 md:mt-0 flex space-x-4">
+          <div className="flex mt-4 md:mt-0 space-x-4">
             <a
               href="https://github.com/DavidBalishyan"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-400 hover:text-white"
+              className="text-gray-500 hover:text-white"
             >
               <svg
                 className="h-6 w-6"
@@ -138,7 +106,7 @@ const Home: React.FC = () => {
               href="https://linkedin.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-400 hover:text-white"
+              className="text-gray-500 hover:text-white"
             >
               <svg
                 className="h-6 w-6"
