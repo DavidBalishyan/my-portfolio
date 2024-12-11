@@ -27,8 +27,8 @@ const projects = [
     title: "Portfolio App",
     description: "The app, that you are in right now🤣",
     image: "https://via.placeholder.com/400x300.png?text=Portfolio+App",
-    liveLink: "#",
-    repoLink: "#",
+    liveLink: "/",
+    repoLink: "https://github.com/",
   },
 ];
 

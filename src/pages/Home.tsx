@@ -22,7 +22,7 @@ const Home: React.FC = () => {
             <img
               src="https://via.placeholder.com/500x400.png?text=My+Photo+or+Illustration"
               alt="My Photo or Work Illustration"
-              className="max-w-sm rounded-lg shadow-2xl"
+              className="max-w-sm rounded-lg shadow-2xl"  
             />
 
             {/* Left Content */}

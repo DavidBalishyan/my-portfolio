@@ -13,12 +13,12 @@ module.exports = {
         "wdark": "#1D232AFF",
         "green": "#007C00FF"
       }
-    }, // Add customizations if needed
+    },  
   },
   plugins: [
-    require("daisyui"), // Add DaisyUI here
+    require("daisyui")
   ],
   daisyui: {
-    themes: ["light", "dark"], // Add desired themes
+    themes: ["light", "dark", "coffee", "cyberpunk", "halloween"]
   },
 };

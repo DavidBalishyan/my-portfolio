@@ -10,7 +10,7 @@ const Contact: React.FC = () => {
         <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10">
           {/* Section Header */}
           <div className="text-center">
-            <h2 className="text-4xl font-bold text-ey">Contact Us</h2>
+            <h2 className="text-4xl font-bold text-ey">Contact Me</h2>
             <p className="text-white mt-4 text-lg">
               We'd love to hear from you! Feel free to reach out with any questions, feedback, or collaboration ideas.
             </p>
