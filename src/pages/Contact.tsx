@@ -141,6 +141,27 @@ const Contact: React.FC = () => {
                     davidbalishyan.work@gmail.com
                   </span>
                 </li>
+                <li className="flex items-center">
+                  <span className="bg-primary text-white p-3 rounded-full">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-5 w-5"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M16.72 11.06a8 8 0 10-4.64 4.64m1.42-7.1a3 3 0 11-4.24 4.24"
+                      />
+                    </svg>
+                  </span>
+                  <span className="ml-4 text-white">
+                    david.balishyan@tumo.org
+                  </span>
+                </li>
               </ul>
             </div>
           </div>

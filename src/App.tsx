@@ -8,10 +8,12 @@ import Contact from "./pages/Contact.tsx";
 import Indev from "./components/Indev.tsx";
 import Projects from "./pages/Projects.tsx";
 import Game from "./pages/Game.tsx";
+import Resume from "./pages/Resume.tsx";
 
 document.title = "David Balishyan 😎";
 
 const App: React.FC = () => {
+  document.createAttribute("data-theme");
   return (
     <Router>
       <div data-theme="halloween">
@@ -22,7 +24,8 @@ const App: React.FC = () => {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/projects" element={<Projects />} />
-      {/* FIXME: make the routes better */}
+          <Route path="/resume" element={<Resume/>} />
+          {/* FIXME: make the routes better */}
           <Route path="/game" element={<Game />} />
           <Route path="*" element={<Notfound />} />
           <Route path="/indev" element={<Indev />} />
@@ -33,4 +36,3 @@ const App: React.FC = () => {
 };
 
 export default App;
-  

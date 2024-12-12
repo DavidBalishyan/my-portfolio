@@ -41,7 +41,7 @@ const About: React.FC = () => {
                 Let's Connect
               </Link>
               <Link
-                to="/resume.pdf"
+                to="/resume"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-outline btn-white"

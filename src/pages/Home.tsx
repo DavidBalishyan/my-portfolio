@@ -35,7 +35,7 @@ const Home: React.FC = () => {
                 specializing in building modern, user-friendly web applications.
               </p>
               <div>
-                <Link to="/indev" className="btn btn-warning mr-4">
+                <Link to="/projects" className="btn btn-warning mr-4">
                   View My Work
                 </Link>
                 <Link to="/contact" className="btn btn-outline btn-white">
