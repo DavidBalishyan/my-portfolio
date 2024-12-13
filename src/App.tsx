@@ -13,19 +13,16 @@ import Resume from "./pages/Resume.tsx";
 document.title = "David Balishyan 😎";
 
 const App: React.FC = () => {
-  document.createAttribute("data-theme");
   return (
     <Router>
       <div data-theme="halloween">
         <Navbar />
-
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/resume" element={<Resume/>} />
-          {/* FIXME: make the routes better */}
           <Route path="/game" element={<Game />} />
           <Route path="*" element={<Notfound />} />
           <Route path="/indev" element={<Indev />} />
