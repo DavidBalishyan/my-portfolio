@@ -17,10 +17,10 @@ const Resume: React.FC = () => {
           <br />
           Email:{" "}
           <a
-            href="mailto:davidbalishya12n@gmail.com"
+            href="mailto:davidbalishya12@gmail.com"
             className="link link-hover"
           >
-            davidbalishya12n@gmail.com
+            davidbalishya12@gmail.com
           </a>
           <br />
           Email:{" "}
@@ -40,14 +40,11 @@ const Resume: React.FC = () => {
         <div className="flex justify-center mt-6 gap-4">
           <a
             href="https://github.com/DavidBalishyan"
-            className="btn text-white    btn-primary"
+            className="btn btn-primary"
           >
             GitHub
           </a>
-          <a
-            href="https://x.com"
-            className="btn btn-outline    text-white btn-primary"
-          >
+          <a href="https://x.com" className="btn btn-outline btn-primary">
             X(twitter)
           </a>
         </div>
@@ -124,16 +121,6 @@ const Resume: React.FC = () => {
           <span className="badge badge-primary p-4 text-lg">Bulma css</span>
           <span className="badge badge-primary p-4 text-lg">Tauri</span>
           <span className="badge badge-primary p-4 text-lg">Electron js</span>
-          <span className="badge badge-primary p-4 text-lg"></span>
-          <span className="badge badge-primary p-4 text-lg"></span>
-          <span className="badge badge-primary p-4 text-lg"></span>
-          <span className="badge badge-primary p-4 text-lg"></span>
-          <span className="badge badge-primary p-4 text-lg"></span>
-          <span className="badge badge-primary p-4 text-lg"></span>
-          <span className="badge badge-primary p-4 text-lg"></span>
-          <span className="badge badge-primary p-4 text-lg"></span>
-          <span className="badge badge-primary p-4 text-lg"></span>
-          <span className="badge badge-primary p-4 text-lg"></span>
         </div>
       </div>
     </div>
