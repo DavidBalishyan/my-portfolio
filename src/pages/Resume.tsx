@@ -4,7 +4,7 @@ const Resume: React.FC = () => {
   return (
     <div className="bg-gradient-to-r from-base-200 to-base-300 min-h-screen p-8">
       {/* Header Section */}
-      <div className="bg-base-100 shadow-2xl rounded-lg p-8 mb-8 text-white">
+      <div className="bg-base-100 shadow-2xl rounded-lg p-8 mb-8 text-white">  
         <h1 className="text-5xl font-extrabold text-center mb-4">Your Name</h1>
         <p className="text-center text-lg font-medium">
           Full-Stack Web Developer
@@ -22,7 +22,8 @@ const Resume: React.FC = () => {
           >
             davidbalishya12@gmail.com
           </a>
-          <br />
+          <br />+
+
           Email:{" "}
           <a
             href="mailto:davidbalishyan.work@gmail.com"
@@ -54,11 +55,11 @@ const Resume: React.FC = () => {
       <div className="bg-base-100 shadow-2xl rounded-lg p-8 mb-8">
         <h2 className="text-3xl font-bold mb-6">Work Experience</h2>
         <div className="mb-6">
-          <h3 className="text-xl font-semibold">Frontend Developer</h3>
-          <p className="text-sm text-secondary">
+          <h3 className="text-xl text-primary font-semibold">Frontend Developer</h3>
+          <p className="text-sm text-current">
             ABC Company | Jan 2022 - Present
           </p>
-          <ul className="list-disc ml-6 mt-4 text-base">
+          <ul className="list-disc ml-6 mt-4">
             <li>
               Developed responsive web applications using React and TailwindCSS.
             </li>
@@ -67,8 +68,8 @@ const Resume: React.FC = () => {
           </ul>
         </div>
         <div>
-          <h3 className="text-xl font-semibold">Web Developer Intern</h3>
-          <p className="text-sm text-secondary">
+          <h3 className="text-xl font-semibold text-primary">Web Developer Intern</h3>
+          <p className="text-sm text-current">
             XYZ Company | Jun 2021 - Dec 2021
           </p>
           <ul className="list-disc ml-6 mt-4 text-base">
@@ -85,11 +86,11 @@ const Resume: React.FC = () => {
       <div className="bg-base-100 shadow-2xl rounded-lg p-8 mb-8">
         <h2 className="text-3xl font-bold mb-6">Education</h2>
         <div>
-          <h3 className="text-xl font-semibold">
+          <h3 className="text-xl font-semibold text-primary">
             Bachelor of Computer Science
           </h3>
-          <p className="text-sm text-secondary">
-            University of Technology | 2018 - 2022
+          <p className="text-sm text-current">
+            BeeOnCode academy || Erevan, Armenia || 2022 - Present
           </p>
           <p className="mt-4 text-base">
             Graduated with honors, specializing in web development and software

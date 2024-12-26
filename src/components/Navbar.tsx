@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import ThemeChangeComponent from "./Theme/ThemeChange";
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div className="navbar text-white shadow-lg">
+     
       <div className="flex-1">
         {/* Logo */}
         <Link to="/" className="btn btn-ghost normal-case text-xl">
@@ -84,6 +86,7 @@ const Navbar: React.FC = () => {
           </Link>
         </div>
       )}
+       <ThemeChangeComponent/>
     </div>
   );
 };

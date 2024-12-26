@@ -42,7 +42,6 @@ const About: React.FC = () => {
               </Link>
               <Link
                 to="/resume"
-                target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-outline btn-white"
               >
@@ -54,6 +53,7 @@ const About: React.FC = () => {
       </div>
     </section>
   );
+  console.log("About.tsx");
 };
 
 export default About;
