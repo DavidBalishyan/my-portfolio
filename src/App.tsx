@@ -10,16 +10,11 @@ import Projects from "./pages/Projects.tsx";
 import Game from "./pages/Game.tsx";
 import Resume from "./pages/Resume.tsx";
 import NotificationList from "./components/NotificationList.tsx";
-import { useDispatch } from "react-redux";
-import { addNotification } from "./logic/notificationSlice.ts";
 
 
 document.title = "David Balishyan 😎";
 
 const App: React.FC = () => {
-  const dispatch = useDispatch();
-  dispatch(addNotification(navigator.userAgent));
-  
   return (
     <Router>
       <div>

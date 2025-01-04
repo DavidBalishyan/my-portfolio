@@ -54,7 +54,7 @@ const ThemeToggleComponent: React.FC = () => {
       const indx = Math.floor(Math.random() * themes.length);
       newTheme = themes[indx];
     } else if (newTheme === "next") {
-      const current: object = window.document.documentElement;
+      const current: any = window.document.documentElement;
       const indx = themes.indexOf(current.getAttribute("data-theme"));
       const nextth = themes[indx + 1] || themes[0];
       newTheme = nextth;

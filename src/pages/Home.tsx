@@ -10,6 +10,7 @@ import cpplogo from "../img/cpplogo.png";
 import electronlogo from "../img/electronlogo.png";
 import bulmalogo from "../img/bulmalogo.png";
 import bootstraplogo from "../img/bootstraplogo.jpg";
+import pylogo from "../img/pylogo.png";
 
 const Home: React.FC = () => {
   return (
@@ -61,6 +62,7 @@ const Home: React.FC = () => {
               { img: taurilogo, name: "Tauri" },
               { img: rustlogo, name: "Rust" },
               { img: cpplogo, name: "C++" },
+              { img: pylogo, name: "Python"},
               { img: electronlogo, name: "Electron" },
               { img: bootstraplogo, name: "Bootstrap" },
               { img: bulmalogo, name: "Bulma" },
