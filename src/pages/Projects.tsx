@@ -2,6 +2,12 @@ import React from "react";
 
 const projects = [
   {
+    title: "Check out my github for all of my projects",
+    image: "https://via.placeholder.com/400x300.png?text=All+of+my+projects",
+    liveLink: "https://github.com/DavidBalishyan",
+    repoLink: "https://github.com/DavidBalishyan",
+  },
+  {
     title: "Quiz App",
     description: "A dynamic quiz application built with React.",
     image: "https://via.placeholder.com/400x300.png?text=Quiz+App",
@@ -28,7 +34,20 @@ const projects = [
     description: "The app, that you are in right now🤣",
     image: "https://via.placeholder.com/400x300.png?text=Portfolio+App",
     liveLink: "/",
-    repoLink: "https://github.com/",
+    repoLink: "#",
+  },
+  {
+    title: "Full-stack contacts web-app",
+    description: "A full stack react web-app with a database using python flask for backend and react js for frontend",
+    image: "https://via.placeholder.com/400x300.png?text=Contacts+App",
+    liveLink: "#",
+    repoLink: "#",
+  },
+  {
+    title: "PyHello",
+    description: "Some python mini projects for beginners",
+    image: "https://via.placehlder.com/400x300?text=PyHello", 
+    repoLink: "https://github.com/DavidBalishyan/pyhello"
   },
 ];
 

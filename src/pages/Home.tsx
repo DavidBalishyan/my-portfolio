@@ -66,6 +66,7 @@ const Home: React.FC = () => {
               { img: electronlogo, name: "Electron" },
               { img: bootstraplogo, name: "Bootstrap" },
               { img: bulmalogo, name: "Bulma" },
+              { img: undefined, name: "Php" }
             ].map((skill, idx) => (
               <div key={idx} className="card shadow-md bg-white">
                 <div className="card-body items-center">
