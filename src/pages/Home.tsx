@@ -1,16 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import reactlogo from "../img/reactlogo.png";
-import tailwindlogo from "../img/tailwindlogo.png";
-import tslogo from "../img/tslogo.png";
-import nodelogo from "../img/nodelogo.jpg";
-import taurilogo from "../img/taurilogo.png";
-import rustlogo from "../img/rustlogo.png";
-import cpplogo from "../img/cpplogo.png";
-import electronlogo from "../img/electronlogo.png";
 import bulmalogo from "../img/bulmalogo.png";
-import bootstraplogo from "../img/bootstraplogo.jpg";
-import pylogo from "../img/pylogo.png";
 
 const Home: React.FC = () => {
   return (
@@ -55,22 +45,22 @@ const Home: React.FC = () => {
           <p className="text-gray-500 mt-2">A quick overview of my technical toolbox.</p>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-10">
             {[
-              { img: reactlogo, name: "ReactJS" },
-              { img: tailwindlogo, name: "TailwindCSS" },
-              { img: tslogo, name: "TypeScript" },
-              { img: nodelogo, name: "Node.js" },
-              { img: taurilogo, name: "Tauri" },
-              { img: rustlogo, name: "Rust" },
-              { img: cpplogo, name: "C++" },
-              { img: pylogo, name: "Python"},
-              { img: electronlogo, name: "Electron" },
-              { img: bootstraplogo, name: "Bootstrap" },
+              { img: "https://iconlib.onrender.com/icon/React-Dark", name: "ReactJS" },
+              { img: "https://iconlib.onrender.com/icon/TailwindCSS-Dark", name: "TailwindCSS" },
+              { img: "https://iconlib.onrender.com/icon/TypeScript", name: "TypeScript" },
+              { img: "https://iconlib.onrender.com/icon/NodeJS-Dark", name: "Node.js" },
+              { img: "https://iconlib.onrender.com/icon/Tauri-Dark", name: "Tauri" },
+              { img: "https://iconlib.onrender.com/icon/Rust", name: "Rust" },
+              { img: "https://iconlib.onrender.com/icon/cpp", name: "C++" },
+              { img: "https://iconlib.onrender.com/icon/Python-Dark", name: "Python"},
+              { img: "https://iconlib.onrender.com/icon/electron", name: "Electron" },
+              { img: "https://iconlib.onrender.com/icon/bootstrap", name: "Bootstrap" },
               { img: bulmalogo, name: "Bulma" },
-              { img: undefined, name: "Php" }
+              { img: "https://iconlib.onrender.com/icon/PHP-Dark", name: "Php" }
             ].map((skill, idx) => (
               <div key={idx} className="card shadow-md bg-white">
                 <div className="card-body items-center">
-                  <img src={skill.img} alt={skill.name} className="w-16 mx-auto " />
+                  <img src={skill.img} alt={skill.name} className="w-16 mx-auto" />
                   <p className="mt-4 text-gray-800 font-semibold">{skill.name}</p>
                 </div>
               </div>
