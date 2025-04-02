@@ -1,11 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Resume: React.FC = () => {
   return (
     <div className="bg-gradient-to-r from-base-200 to-base-300 min-h-screen p-8">
       {/* Header Section */}
       <div className="bg-base-100 shadow-2xl rounded-lg p-8 mb-8 text-white">  
-        <h1 className="text-5xl font-extrabold text-center mb-4">Your Name</h1>
+        <h1 className="text-5xl font-extrabold text-center mb-4">David Balishyan</h1>
         <p className="text-center text-lg font-medium">
           Full-Stack Web Developer
         </p>
@@ -52,7 +53,7 @@ const Resume: React.FC = () => {
       </div>
 
       {/* Work Experience Section */}
-      <div className="bg-base-100 shadow-2xl rounded-lg p-8 mb-8">
+      {/* <div className="bg-base-100 shadow-2xl rounded-lg p-8 mb-8">
         <h2 className="text-3xl font-bold mb-6">Work Experience</h2>
         <div className="mb-6">
           <h3 className="text-xl text-primary font-semibold">Frontend Developer</h3>
@@ -80,14 +81,14 @@ const Resume: React.FC = () => {
             </li>
           </ul>
         </div>
-      </div>
+      </div> */}
 
       {/* Education Section */}
       <div className="bg-base-100 shadow-2xl rounded-lg p-8 mb-8">
         <h2 className="text-3xl font-bold mb-6">Education</h2>
         <div>
           <h3 className="text-xl font-semibold text-primary">
-            Bachelor of Computer Science
+            Full-stack web development and computer Science
           </h3>
           <p className="text-sm text-current">
             BeeOnCode academy || Erevan, Armenia || 2022 - Present
@@ -103,6 +104,7 @@ const Resume: React.FC = () => {
       <div className="bg-base-100 shadow-2xl rounded-lg p-8">
         <h2 className="text-3xl font-bold mb-6">Skills</h2>
         <div className="grid grid-cols-3 gap-6">
+          <Link to="/skills" className="btn btn-soft btn-primary">Go to Skills page to see more info</Link>
           <span className="badge badge-primary p-4 text-lg">ReactJS</span>
           <span className="badge badge-primary p-4 text-lg">Node.js</span>
           <span className="badge badge-primary p-4 text-lg">TailwindCSS</span>

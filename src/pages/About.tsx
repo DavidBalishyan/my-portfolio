@@ -4,7 +4,7 @@ import logo from "../img/Logo.jpg";
 
 const About: React.FC = () => {
   return (
-    <section id="about" className="bg-base-200 py-16">
+    <section id="about" className="flex items-center justify-center h-screen bg-gradient-to-br from-primary to-secondary">
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10">
         {/* Section Header */}
         <div className="text-center">

@@ -6,16 +6,9 @@ const Home: React.FC = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <header className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white">
+      <header className="flex items-center justify-center bg-gradient-to-br from-primary to-secondary">
         <div className="hero py-20">
           <div className="hero-content flex-col lg:flex-row-reverse">
-            {/* Right Content (Illustration/Image) */}
-            <img
-              src="https://via.placeholder.com/500x400.png?text=My+Photo+or+Illustration"
-              alt="My Photo or Work Illustration"
-              className="max-w-sm rounded-lg shadow-2xl"  
-            />
-
             {/* Left Content */}
             <div>
               <h1 className="text-5xl font-bold">
@@ -36,7 +29,10 @@ const Home: React.FC = () => {
             </div>
           </div>
         </div>
+          
       </header>
+
+      
 
       {/* Skills Section */}
       <section id="skills" className="py-16 bg-base-200">
@@ -63,12 +59,15 @@ const Home: React.FC = () => {
                   <img src={skill.img} alt={skill.name} className="w-16 mx-auto" />
                   <p className="mt-4 text-gray-800 font-semibold">{skill.name}</p>
                 </div>
-              </div>
+              </div>  
             ))}
+            
           </div>
         </div>
       </section>
-
+      <Link to="https://github.com/DavidBalishyan" target="_blank">
+      <img src="https://github-widgetbox.vercel.app/api/profile?username=DavidBalishyan&data=followers,repositories,stars,commits&theme=dark"/>
+      </Link>
       {/* Footer Section */}
       <footer className="bg-base-300 py-6">
         <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">

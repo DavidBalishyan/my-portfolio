@@ -1,0 +1,1 @@
+1. Using tailwindcss v3, because of daisyui
