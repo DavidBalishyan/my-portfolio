@@ -6,7 +6,7 @@ const Home: React.FC = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <header className="flex items-center justify-center bg-gradient-to-br from-primary to-secondary">
+      <header className="bg-gradient-to-br from-primary to-secondary">
         <div className="hero py-20">
           <div className="hero-content flex-col lg:flex-row-reverse">
             {/* Left Content */}
