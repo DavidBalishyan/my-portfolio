@@ -11,6 +11,7 @@ import Game from "./pages/Game.tsx";
 import Resume from "./pages/Resume.tsx";
 import NotificationList from "./components/NotificationList.tsx";
 import Skills from "./pages/Skills.tsx";
+import Chess from "./pages/games/Chess.tsx"
 
 
 document.title = "David Balishyan 😎";
@@ -31,6 +32,7 @@ const App: React.FC = () => {
           <Route path="*" element={<Notfound />} />
           <Route path="/indev" element={<Indev />} />
           <Route path="/skills" element={<Skills />} />
+          <Route path="/play/chess" element={<Chess/>}/>
         </Routes>
         <NotificationList/>
       </div>

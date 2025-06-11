@@ -4,7 +4,7 @@ const Contact: React.FC = () => {
   return (
     <>
       <p>
-        Sorry, you can`t send us a message through the website. Use our email or phone number until we fix the problem.
+        Sorry, you can`t send me a message through the website. Use our email or phone number until we fix the problem.
       </p>
       <section id="contact" className="bg-base-200 py-16">
         <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10">

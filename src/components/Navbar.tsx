@@ -32,7 +32,7 @@ const Navbar: React.FC = () => {
         <Link to="/skills" className="btn btn-ghost normal-case">
           Skills
         </Link>
-        <Link to="/indev" className="btn btn-ghost normal-case">
+        <Link to="/game" className="btn btn-ghost normal-case">
           Game
         </Link>
       </div>
