@@ -66,7 +66,7 @@ const Home: React.FC = () => {
         </div>
       </section>
       <Link to="https://github.com/DavidBalishyan" target="_blank">
-      <img src="https://github-widgetbox.vercel.app/api/profile?username=DavidBalishyan&data=followers,repositories,stars,commits&theme=dark"/>
+      <center><img src="https://github-widgetbox.vercel.app/api/profile?username=DavidBalishyan&data=followers,repositories,stars,commits&theme=dark"/></center>
       </Link>
       {/* Footer Section */}
       <footer className="bg-base-300 py-6">
