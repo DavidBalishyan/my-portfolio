@@ -6,7 +6,7 @@ const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="navbar text-white shadow-lg">
+    <div className="navbar text-white shadow-lg overflow-visible z-50">
      
       <div className="flex-1">
         {/* Logo */}

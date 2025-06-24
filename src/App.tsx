@@ -1,5 +1,7 @@
-import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import React, { useEffect } from "react";
+import { Route, Routes } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { addNotification } from "./logic/notificationSlice";
 import Home from "./pages/Home.tsx";
 import About from "./pages/About.tsx";
 import Notfound from "./components/Notfound.tsx";
@@ -17,10 +19,17 @@ import Chess from "./pages/games/Chess.tsx"
 document.title = "David Balishyan 😎";
 
 const App: React.FC = () => {
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(addNotification("Hi! :)"));
+  }, [dispatch]);
+
   return (
-    <Router>
+    // <Router>
       <div>
         <Navbar />
+        <NotificationList/>
         <Routes>
           <Route path="/trash" element={<h1>Do not use Light mode</h1>} />
           <Route path="/" element={<Home />} />
@@ -34,9 +43,9 @@ const App: React.FC = () => {
           <Route path="/skills" element={<Skills />} />
           <Route path="/play/chess" element={<Chess/>}/>
         </Routes>
-        <NotificationList/>
+        
       </div>
-    </Router>
+    // </Router>
   );
 };
 
