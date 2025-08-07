@@ -4,7 +4,8 @@ const Contact: React.FC = () => {
   return (
     <>
       <p>
-        Sorry, you can`t send me a message through the website. Use our email or phone number until we fix the problem.
+        Sorry, you can`t send me a message through the website. Use our email or
+        phone number until we fix the problem.
       </p>
       <section id="contact" className="bg-base-200 py-16">
         <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10">
@@ -12,7 +13,8 @@ const Contact: React.FC = () => {
           <div className="text-center">
             <h2 className="text-4xl font-bold text-ey">Contact Me</h2>
             <p className="text-white mt-4 text-lg">
-              We'd love to hear from you! Feel free to reach out with any questions, feedback, or collaboration ideas.
+              We'd love to hear from you! Feel free to reach out with any
+              questions, feedback, or collaboration ideas.
             </p>
           </div>
 
@@ -78,27 +80,7 @@ const Contact: React.FC = () => {
                 You can also reach us through the following channels:
               </p>
               <ul className="mt-4 space-y-4">
-                <li className="flex items-center">
-                  <span className="bg-primary text-white p-3 rounded-full">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-5 w-5"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M3 10h11M9 21h-2m12-8h-4m0 0h-4m4-6h-4m0 0H5m4 0H4m0 0H3m7-6H4"
-                      />
-                    </svg>
-                  </span>
-                  <span className="ml-4 text-white">
-                    +374 (77) 12-65-56 (only in Armenia)
-                  </span>
-                </li>
+                <li className="flex items-center"></li>
                 <li className="flex items-center">
                   <span className="bg-primary text-white p-3 rounded-full">
                     <svg
@@ -169,7 +151,6 @@ const Contact: React.FC = () => {
       </section>
     </>
   );
-  
 };
 
 export default Contact;
